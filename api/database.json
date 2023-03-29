@@ -1,0 +1,177 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "computerId": 5,
+            "departmentId": 5,
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Bret",
+            "lastName": "Lance",
+            "computerId": 4,
+            "departmentId": 4,
+            "locationId": 1
+        },
+        {
+            "id": 3,
+            "firstName": "Wolfgang",
+            "lastName": "Mariam",
+            "computerId": 3,
+            "departmentId": 1,
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Ema",
+            "lastName": "Ida",
+            "computerId": 2,
+            "departmentId": 2,
+            "locationId": 2
+        },
+        {
+            "id": 5,
+            "firstName": "Elinor",
+            "lastName": "Fabius",
+            "computerId": 1,
+            "departmentId": 3,
+            "locationId": 3
+        }
+    ],
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Thinkpad",
+            "year": 2000
+        },
+        {
+            "id": 3,
+            "model": "Pavilion",
+            "year": 2022
+        },
+        {
+            "id": 4,
+            "model": "Aspire",
+            "year": 2019
+        },
+        {
+            "id": 5,
+            "model": "Inspiron",
+            "year": 2020
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "IT"
+        },
+        {
+            "id": 2,
+            "name": "HR"
+        },
+        {
+            "id": 3,
+            "name": "accounting"
+        },
+        {
+            "id": 4,
+            "name": "sales"
+        },
+        {
+            "id": 5,
+            "name": "quality assurance"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Nashville"
+        },
+        {
+            "id": 2,
+            "name": "Atlanta"
+        },
+        {
+            "id": 3,
+            "name": "Memphis"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Juniper Distribution"
+        },
+        {
+            "id": 2,
+            "name": "Brightbox LLC"
+        },
+        {
+            "id": 3,
+            "name": "CloudC0ast"
+        },
+        {
+            "id": 4,
+            "name": "Motimatic Inc"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 1
+        },
+        {
+            "id": 2,
+            "customerId": 2,
+            "employeeId": 1
+        },
+        {
+            "id": 3,
+            "customerId": 3,
+            "employeeId": 2
+        },
+        {
+            "id": 4,
+            "customerId": 4,
+            "employeeId": 2
+        },
+        {
+            "id": 5,
+            "customerId": 4,
+            "employeeId": 3
+        },
+        {
+            "id": 6,
+            "customerId": 1,
+            "employeeId": 3
+        },
+        {
+            "id": 7,
+            "customerId": 2,
+            "employeeId": 4
+        },
+        {
+            "id": 8,
+            "customerId": 4,
+            "employeeId": 4
+        },
+        {
+            "id": 9,
+            "customerId": 1,
+            "employeeId": 5
+        },
+        {
+            "id": 10,
+            "customerId": 3,
+            "employeeId": 5
+        }
+    ]
+}
